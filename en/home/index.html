@@ -1,0 +1,92 @@
+<head>
+    <title>Home</title>
+    <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
+    <link rel="stylesheet" type="text/css" href="/style/main.css">
+    <script src="//code.jquery.com/jquery.min.js"></script>
+    <script>
+    $.get("/en/navigation.html", function(data){
+        $("#nav-placeholder").replaceWith(data);
+    });
+    </script>
+</head>
+<body>
+    <div id="nav-placeholder"></div>
+    <div class="title-div" style="background-image: url('/images/home_page.png');">
+        <div><p class="title">Home Page</p></div>
+    </div>
+    <div class="main-column">
+        <div class="centered-paragraph">
+            <p>
+                Available in other languages:
+                <br>- <a href="/fr/accueil/" class="lg-avaible">Français</a>
+                <br>- <a class="lg-current">English (Current)</a>
+            </p>
+        </div>
+        <hr>
+        <div class="centered-paragraph">
+            <p>
+                <span class="ghurk-dictionary">Ghurklasian Dictionary:</span>
+                <br>
+                <button onclick="location.href='https://lexiconga.com/94849879'"><span>Online</span></button>
+            </p>
+        </div>
+        <hr>
+        <div class="image-paragraph">
+            <div class="image-p-img" style="padding-top: 10vmin;">
+                <img src="/images/nord-pas-de-calais.png">
+                <p class="image-name-text">
+                    Map of <a href="https://en.wikipedia.org/wiki/Nord-Pas-de-Calais">Nord-Pas-De-Calais</a>
+                </p>
+            </div>
+            <div class="image-p-text">
+                <p>
+                    <span class="text-bold">Ghurklasian</span>
+                    (or natively: <span class="text-italic">Ghurklasene</span>) is a 
+                    <a href="https://en.wikipedia.org/wiki/Constructed_language">constructed language</a> created around the 1 December 2022 for the state of 
+                    <a href="https://micronations.wiki/wiki/Ghurklas">Ghurklas</a>,
+                    a <a href="https://en.wikipedia.org/wiki/Micronation">micronation</a> (state without real control over its land) in the region 
+                    of <a href="https://en.wikipedia.org/wiki/Nord-Pas-de-Calais">Nord-Pas-De-Calais</a> in France.
+                    <br><br>
+                    <a href="https://micronations.wiki/wiki/Ghurklasian">Ghurklasian</a> 
+                    is spoken in the cities around
+                    <a href="https://en.wikipedia.org/wiki/Dunkirk">Dunkirk</a> (in ghurklasian: Dunekerke)
+                    and in the western part of 
+                    <a href="https://en.wikipedia.org/wiki/Austria">Austria</a>, in the micronation of Lüodingosch Dētchvak. 
+                    <br><br>
+                    This <a href="https://en.wikipedia.org/wiki/Constructed_language">conlang</a> has mostly influence from 
+                    <a href="https://en.wikipedia.org/wiki/French_language">French</a> and <a href="https://en.wikipedia.org/wiki/English_language">English</a>
+                    due to the location where it originated, with some influence from 
+                    <a href="https://en.wikipedia.org/wiki/Dutch_language">Dutch</a> (especially the 
+                    <a href="https://en.wikipedia.org/wiki/West_Flemish">West-Flemish</a> dialects),
+                    <a href="https://en.wikipedia.org/wiki/Danish_language">Danish</a> and <a href="https://en.wikipedia.org/wiki/German_language">German</a>
+                    A few words are imported from <a href="https://en.wikipedia.org/wiki/Russian_language">Russian</a> due to the former use of the 
+                    <a href="https://en.wikipedia.org/wiki/Cyrillic_script">Cyrillic script</a> in 2023/early 2024.
+                </p>
+            </div>
+        </div>
+        <hr>
+        <div>
+            <p style="text-align: center;">
+                <span style="font-weight: bold; font-size: 5vmin;">What is this website?</span>
+                <br>
+                This website was developed by the conlang's creator, Tvvd. Its goal is to archive ghurklasian content and provide learning ressources online
+            </p>
+        </div>
+        <hr>
+        <div class="centered-paragraph">
+            <p style="text-align: center;">
+                Other Pages:
+                <span style="display: block; border-radius: 1.5vmin; overflow: hidden; padding-top: 0;">
+                    <button onclick="location.href='/en/learn'" style="border-radius: 0;"><span>Learn</span></button>
+                    <br><button onclick="location.href='/en/content'" style="border-radius: 0;"><span>Content</span></button>
+                    <br><button onclick="location.href='/en/archive'" style="border-radius: 0;"><span>GNIL's Archives</span></button>
+                </span>
+                <br>Other Websites:
+                <span style="display: block; border-radius: 1.5vmin; overflow: hidden; padding-top: 0;">
+                    <button onclick="location.href='https://discord.gg/8s6U6v7q48'" style="border-radius: 0;"><span>Discord</span></button>
+                    <!--<br><button onclick="location.href='https://www.ghurklas.com/'" style="border-radius: 0;"><span>Micronation's Site</span></button>-->
+                </span>
+            </p>
+        </div>
+    </div>
+</body>

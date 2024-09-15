@@ -1,0 +1,25 @@
+<head>
+    <title>Content</title>
+    <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
+    <link rel="stylesheet" type="text/css" href="/style/main.css">
+    <script src="//code.jquery.com/jquery.min.js"></script>
+    <script>
+    $.get("/en/navigation.html", function(data){
+        $("#nav-placeholder").replaceWith(data);
+    });
+    </script>
+</head>
+<body>
+    <div id="nav-placeholder"></div>
+    <div class="title-div" style="background-image: url('/images/content.png');">
+        <div><p class="title">Content</p></div>
+    </div>
+    <div class="main-column" style="padding-top: 2.5vmin;">
+        <div class="centered-paragraph">
+            <p style="text-align: center;">
+                Songs:
+                <br> - <a href="/en/content/songs/la_marseillaise" style="color: royalblue;">La Marseillaise</a>
+            </p>
+        </div>
+    </div>
+</body>

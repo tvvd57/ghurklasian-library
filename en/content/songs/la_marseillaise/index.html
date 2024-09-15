@@ -1,0 +1,57 @@
+<head>
+    <title>La Marseillaise</title>
+    <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
+    <link rel="stylesheet" type="text/css" href="/style/main.css">
+    <script src="//code.jquery.com/jquery.min.js"></script>
+    <script>
+    $.get("/en/navigation.html", function(data){
+        $("#nav-placeholder").replaceWith(data);
+    });
+    </script>
+</head>
+<body>
+    <div id="nav-placeholder"></div>
+    <div class="title-div" style="background-image: url('/images/fr_flag.png');">
+        <div><p class="title">La Marseillaise</p></div>
+    </div>
+    <div class="main-column" style="padding-top: 10vmin;">
+        <div style="float: left; width: 45%;">
+            <p style="text-wrap:pretty;">
+                <span style="font-weight: bold; font-size: 4vmin; text-align: center;">French</span>
+                <br>Allons enfant de la patrie,
+                <br>Le jour de gloire est arrivé!
+                <br>Contre nous de la tyrannie,
+                <br>L'étendard sanglant est levé
+                <br>L'étendard sanglant est levé!
+                <br>Entendez-vous dans les campagnes
+                <br>Mugir ces féroces soldats?
+                <br>Ils viennent jusque dans vos bras,
+                <br>Égorger vos fils et vos compagnes!
+                <br>Aux armes, citoyens!
+                <br>Formez, vos bataillons!
+                <br>Marchons! Marchons!
+                <br>Qu'un sang impur
+                <br>Abreuve nos sillons!
+            </p>
+        </div>
+        <div style="float: right; width: 45%;">
+            <p style="text-wrap:pretty;">
+                <span style="font-weight: bold; font-size: 4vmin; text-align: center;">Ghurklasian</span>
+                <br>Kommei kidtes dele phaterlehj,
+                <br>Þae oškijden este da!
+                <br>Izgehnet dele tiraniē,
+                <br>Þae sane flage, æssede
+                <br>Þae sane flage, æssede!
+                <br>Æres daë, i þes kampanos
+                <br>Laēwer daas krani eximoses?
+                <br>Kommef jos ve bras,
+                <br>Eggetef ve söēs ae vo vræncaft!
+                <br>Ales armes, sitenes!
+                <br>Formei, ve kieftanes!
+                <br>Marčhei! Marčhei!
+                <br>K'en imparo sano
+                <br>Abregge kom paen!
+            </p>
+        </div>
+    </div>
+</body>
