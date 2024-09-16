@@ -33,7 +33,6 @@ nav li:not(.title) {
 }
 
 .flag-gk {
-    background-size: none;
     width: 5.5vmin;
     margin: none;
     object-fit: contain;
