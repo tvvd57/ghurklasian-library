@@ -1,0 +1,15 @@
+<head>
+    <title>Pronunciation</title>
+    <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
+    <link rel="stylesheet" type="text/css" href="/style/main.css">
+    <script src="//code.jquery.com/jquery.min.js"></script>
+    <script>
+    $.get("/en/navigation.html", function(data){
+        $("#nav-placeholder").replaceWith(data);
+    });
+    </script>
+</head>
+<body>
+    <div id="nav-placeholder"></div>
+    <iframe style="padding-top: 8vmin; width: 100%; height: auto; height: 92%;" src="https://drive.google.com/file/d/1pTjmgyCAoC_4VHu8shjld2rhROZyGzfy/preview" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+</body>
