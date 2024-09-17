@@ -36,6 +36,7 @@ nav li:not(.title) {
     width: 5.5vmin;
     margin: none;
     box-shadow: 0 0 1vmin black;
+    height: fit-content;
 }
 
 .flag-gk img {
