@@ -1,0 +1,26 @@
+<head>
+    <title>Redirecting</title>
+    <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
+    <link rel="stylesheet" type="text/css" href="/style/main.css">
+    <script src="//code.jquery.com/jquery.min.js"></script>
+    <script>
+    $.get("/en/navigation.html", function(data){
+        $("#nav-placeholder").replaceWith(data);
+    });
+    </script>
+    <meta charset="UTF-8">
+    <meta http-equiv="refresh" content="0; url=https://www.ghurklasian-library.com/en/home">
+    <script type="text/javascript">
+        window.location.href = "https://www.ghurklasian-library.com/en/home"
+    </script>
+</head>
+<body>
+    <div id="nav-placeholder"></div>
+    <div class="main-column">
+        <p style="margin: auto; text-align: center;">
+            You are being redirected to the home page. If this doesn't work, click <a href="/en/home/" class="redirect-button" style="color: royalblue;">here</a>
+            <br><br>
+            Vous êtes en train d'être redirigé vers la page d'accueil. Veuillez cliquer <a href="/en/home/" class="redirect-button" style="color: royalblue;">ici</a> si vous n'êtes pas redirigé
+        </p>
+    </div>
+</body>
