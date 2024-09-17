@@ -44,6 +44,7 @@ nav li:not(.title) {
     width: 100%;
     image-rendering: auto;
     object-fit: contain;
+    height: fit-content;
 }
 
 nav li:is(.title) {
