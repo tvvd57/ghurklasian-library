@@ -35,7 +35,6 @@ nav li:not(.title) {
 .flag-gk {
     width: 5.5vmin;
     margin: none;
-    object-fit: contain;
     box-shadow: 0 0 1vmin black;
 }
 
@@ -43,6 +42,7 @@ nav li:not(.title) {
     height: 100%;
     width: 100%;
     image-rendering: auto;
+    object-fit: contain;
 }
 
 nav li:is(.title) {
