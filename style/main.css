@@ -130,6 +130,7 @@ body {
     object-fit: contain;
     image-rendering: auto;
     box-shadow: 0 0 1vmin black;
+    height: fit-content;
 }
 
 .blank-div {
