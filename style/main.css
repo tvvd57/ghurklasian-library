@@ -100,11 +100,13 @@ body {
 .centered-paragraph {
     width: fit-content;
     margin: auto;
+    height: fit-content;
 }
 
 .image-paragraph {
     margin-top: 1.5em;
     justify-content: space-between;
+    height: fit-content;
 }
 
 .image-p-text {
@@ -112,6 +114,7 @@ body {
     width: 60%;
     text-wrap: balance;
     padding-top: none;
+    height: fit-content;
 }
 
 .image-p-img {
