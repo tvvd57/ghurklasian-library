@@ -13,7 +13,6 @@ body {
 }
 .navbar {
     background-color: royalblue;
-    justify-content: flex;
     width: 100%;
     overflow: hidden;
     width: 100%;
@@ -34,7 +33,7 @@ nav li:not(.title) {
 
 .flag-gk {
     width: 5.5vmin;
-    margin: none;
+    margin: 0;
     box-shadow: 0 0 1vmin black;
     height: fit-content;
 }
@@ -87,8 +86,8 @@ li a:not(.title):hover {
 
 /* big containers */
 body {
-    padding: none;
-    margin: none;
+    padding: 0;
+    margin: 0;
 }
 
 /* container types */
@@ -113,12 +112,11 @@ body {
     float: right;
     width: 60%;
     text-wrap: balance;
-    padding-top: none;
+    padding-top: 0;
     height: fit-content;
 }
 
 .image-p-img {
-    background-size: none;
     width: 30%;
     height: fit-content;
     float: left;
@@ -176,7 +174,6 @@ hr {
 
 button {
     border-radius: 1vmin;
-    border-radius: none;
     width: 100%;
     background-color: rgb(11, 83, 148);
     border-bottom: none;
