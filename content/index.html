@@ -4,7 +4,7 @@
     <link rel="stylesheet" type="text/css" href="/style/main.css">
     <script src="//code.jquery.com/jquery.min.js"></script>
     <script>
-    $.get("/en/navigation.html", function(data){
+    $.get("/navigation.html", function(data){
         $("#nav-placeholder").replaceWith(data);
     });
     </script>
@@ -17,8 +17,11 @@
     <div class="main-column" style="padding-top: 2.5vmin;">
         <div class="centered-paragraph">
             <p style="text-align: center;">
-                Songs:
-                <br> - <a href="/en/content/songs/la_marseillaise" style="color: royalblue;">La Marseillaise</a>
+                <p style="font-weight: bold; font-size: 5vmin; margin-top: 0; margin-bottom: 1vmin;">Video Games</p>
+                <div style="margin-top: 0; margin-bottom: 0.5vmin; background-color: rgb(238, 238, 238); border-radius: 1vmin; overflow: hidden; display: block;">
+                    <p style="margin-top: 0; margin-bottom: 0; text-align: center;"> Minecraft translation </p>
+                    <button class="redirect-button" onclick="location.href='https://modrinth.com/resourcepack/ghurklasian/versions'">Download</button>
+                </div>
             </p>
         </div>
     </div>

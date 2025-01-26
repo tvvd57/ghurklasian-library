@@ -227,3 +227,21 @@ button:hover {
 .redirect-button {
     cursor: alias;
 }
+
+.discord {
+    border-radius: 1vmin;
+    width: 100%;
+    background-color: rgb(153, 65, 225);
+    border-bottom: none;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    color: white;
+    transition: background-color ease-in-out 0.2s;
+    cursor: pointer;
+}
+
+.discord:hover {
+    background-color: rgb(203, 144, 252);
+    cursor: alias;
+}

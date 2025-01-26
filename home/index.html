@@ -4,13 +4,13 @@
     <link rel="stylesheet" type="text/css" href="/style/main.css">
     <script src="//code.jquery.com/jquery.min.js"></script>
     <script>
-    $.get("/en/navigation.html", function(data){
+    $.get("/navigation.html", function(data){
         $("#nav-placeholder").replaceWith(data);
     });
     </script>
     <meta content="Home Page" property="og:title" />
     <meta content="Ghurklasian (or natively: Ghurklasene) is a constructed language created around the 1 December 2022 for the state of Ghurklas, a micronation (state without real control over its land) in the region of Nord-Pas-De-Calais in France." property="og:description" />
-    <meta content="https://www.ghurklasian-library.com/en/home" property="og:url" />
+    <meta content="https://www.ghurklasian-library.com/home" property="og:url" />
     <meta content="https://www.ghurklasian-library.com/images/home_page.png" property="og:image" />
     <meta content="#4169e1" data-react-helmet="true" name="theme-color" />
 </head>
@@ -20,14 +20,6 @@
         <div><p class="title">Home Page</p></div>
     </div>
     <div class="main-column">
-        <div class="centered-paragraph">
-            <p>
-                Available in other languages:
-                <br>- <a href="/fr/accueil/" class="lg-avaible">Français</a>
-                <br>- <a class="lg-current">English (Current)</a>
-            </p>
-        </div>
-        <hr>
         <div class="centered-paragraph">
             <p>
                 <span class="ghurk-dictionary">Ghurklasian Dictionary:</span>
@@ -82,13 +74,13 @@
             <p style="text-align: center;">
                 Other Pages:
                 <span style="display: block; border-radius: 1.5vmin; overflow: hidden; padding-top: 0;">
-                    <button onclick="location.href='/en/learn'" style="border-radius: 0;"><span>Learn</span></button>
-                    <br><button onclick="location.href='/en/content'" style="border-radius: 0;"><span>Content</span></button>
-                    <br><button onclick="location.href='/en/archive'" style="border-radius: 0;"><span>GNIL's Archives</span></button>
+                    <button onclick="location.href='/learn'" style="border-radius: 0;"><span>Learn</span></button>
+                    <br><button onclick="location.href='/content'" style="border-radius: 0;"><span>Content</span></button>
                 </span>
                 <br>Other Websites:
                 <span style="display: block; border-radius: 1.5vmin; overflow: hidden; padding-top: 0;">
-                    <button onclick="location.href='https://discord.gg/8s6U6v7q48'" style="border-radius: 0;"><span>Discord</span></button>
+                    <button class ="redirect-button" onclick="location.href='https://grammatizer.ghurklasian-library.com/'" style="border-radius: 0;"><span>Grammatizer</span></button>
+                    <button class ="redirect-button" onclick="location.href='https://discord.gg/8s6U6v7q48'" style="border-radius: 0;"><span>Discord</span></button>
                     <!--<br><button onclick="location.href='https://www.ghurklas.com/'" style="border-radius: 0;"><span>Micronation's Site</span></button>-->
                 </span>
             </p>
