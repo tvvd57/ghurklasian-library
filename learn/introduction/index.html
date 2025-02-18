@@ -1,0 +1,30 @@
+<head>
+    <title>Redirecting</title>
+    <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
+    <link rel="stylesheet" type="text/css" href="/style/main.css">
+    <script src="//code.jquery.com/jquery.min.js"></script>
+    <script>
+    $.get("/en/navigation.html", function(data){
+        $("#nav-placeholder").replaceWith(data);
+    });
+    </script>
+    <meta charset="UTF-8">
+    <meta http-equiv="refresh" content="0; url=https://www.ghurklasian-library.com/home">
+    <script type="text/javascript">
+        window.location.href = "https://www.ghurklasian-library.com/images/introduction.pdf"
+    </script>
+    <title>Ghurklasian Library</title>
+    <meta content="Ghurklasian Library - Introduction" property="og:title" />
+    <meta content="Online PDF to learn the basics of Ghurklasian" property="og:description" />
+    <meta content="https://www.ghurklasian-library.com/learn/introduction" property="og:url" />
+    <meta content="https://www.ghurklasian-library.com/images/home_page.png" property="og:image" />
+    <meta content="#4169e1" data-react-helmet="true" name="theme-color" />
+</head>
+<body>
+    <div id="nav-placeholder"></div>
+    <div class="main-column">
+        <p style="margin: auto; text-align: center;">
+            You are being redirected to the page. If this doesn't work, click <a href="/images/introduction.pdf" class="redirect-button" style="color: royalblue;">here</a>
+        </p>
+    </div>
+</body>
