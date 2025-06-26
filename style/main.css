@@ -246,7 +246,7 @@ button:hover {
     cursor: alias;
 }
 
-@media (max-width: 767px) {
+@media (max-width: 1300px) {
     .image-p-img {
         display: none;
         float: none;
@@ -283,7 +283,7 @@ button:hover {
     }
 }
 
-@media (pointer: coarse) {
+@media (pointer: none) {
     .image-p-img {
         display: none;
         float: none;
