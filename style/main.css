@@ -21,7 +21,7 @@ body {
     z-index: 2;
     position: fixed;
 }
-nav li:not(.title) {
+nav li:not(.navtitle) {
     list-style: none;
     padding-bottom: 2vmin;
     padding-left: 2vmin;
@@ -46,7 +46,7 @@ nav li:not(.title) {
     height: fit-content;
 }
 
-nav li:is(.title) {
+nav li:is(.navtitle) {
     list-style: none;
     padding-bottom: 2vmin;
     padding-top: 2vmin;
@@ -244,4 +244,41 @@ button:hover {
 .discord:hover {
     background-color: rgb(203, 144, 252);
     cursor: alias;
+}
+
+@media (max-width: 767px) {
+    .image-p-img {
+        display: none;
+        float: none;
+    }
+    .image-p-text {
+        float: none;
+        width: 100%;
+        text-align: center;
+    }
+    .main-column {
+        padding-left: 2em;
+        padding-right: 2em;
+    }
+    .image-paragraph {
+        justify-content:flex-start; 
+    }
+    .flag-gk {
+        display: none;
+    }
+    p:not(.title) {
+        font-size: 4vmin;
+    }
+    a:not(.listd):not(.navtitle) {
+        font-size: 4vmin;
+    }
+    .text-italic {
+        font-size: 4vmin;
+    }
+    .text-bold {
+        font-size: 4vmin
+    }
+    button span {
+        font-size: 4vmin;
+    }
 }
