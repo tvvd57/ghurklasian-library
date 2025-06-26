@@ -282,3 +282,40 @@ button:hover {
         font-size: 4vmin;
     }
 }
+
+@media (pointer: coarse) {
+    .image-p-img {
+        display: none;
+        float: none;
+    }
+    .image-p-text {
+        float: none;
+        width: 100%;
+        text-align: center;
+    }
+    .main-column {
+        padding-left: 2em;
+        padding-right: 2em;
+    }
+    .image-paragraph {
+        justify-content:flex-start; 
+    }
+    .flag-gk {
+        display: none;
+    }
+    p:not(.title) {
+        font-size: 4vmin;
+    }
+    a:not(.listd):not(.navtitle) {
+        font-size: 4vmin;
+    }
+    .text-italic {
+        font-size: 4vmin;
+    }
+    .text-bold {
+        font-size: 4vmin
+    }
+    button span {
+        font-size: 4vmin;
+    }
+}
